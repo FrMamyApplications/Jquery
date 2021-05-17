@@ -1,0 +1,671 @@
+@charset "UTF-8";
+
+#help2
+{
+font-size:15px;	
+top: 100px;
+left:20px;
+font-size:5px;
+}
+
+.FormularShortEditProject
+{
+	font-size:12px;
+	font-family:Arial;
+	
+}
+
+#Filter
+{
+	position:absolute;
+    top:64px;
+    left:825px;
+    width: 233px;
+	height:25px;
+	padding-top:3px;
+	padding-left:3px;
+	border-color: red;
+	border:solid 1px;
+	background-color:white;
+	font-size:12px;
+	font-family:Arial;
+	
+}
+
+.blankframe
+{
+    position:absolute;
+    background-color: white;
+	
+	width: 100px;
+	
+	height: 60px;
+	border: 1px solid lightgrey;
+}
+
+h4
+{
+	color: red;
+	font-family:Arial;
+	font-size:5px;
+	padding-bottom:10px;
+}
+
+#help
+{
+	background-color:yellow;
+	font-size:5px;
+}
+
+#Infozentrale
+{
+	position:absolute;
+	top:1px;
+	left:1px;
+	width: 40px;
+	height:15px;
+	padding-top:3px;
+	background-color:white;
+}
+
+.Forecast
+{
+	position:absolute;
+    top:100px;
+    left:10px;
+    width: 95%;
+	height:900px;
+	border-color: red;
+	border:solid 1px;
+	background-color:white;
+}
+
+.monat1
+{
+    position:absolute;
+    background-color: lightgrey;
+	top: 0px;
+	
+	border: 1px solid grey;
+  	
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat2
+{
+    position:absolute;
+    background-color: #e0eeee;
+	top: 0px;
+	
+	border: 1px solid grey;
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat3
+{
+    position:absolute;
+    background-color: lightgrey;
+	top: 0px;
+	
+	border: 1px solid grey;
+  	
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat4
+{
+    position:absolute;
+    background-color: #e0eeee;
+	top: 0px;
+	
+	border: 1px solid grey;
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat5
+{
+    position:absolute;
+    background-color: lightgrey;
+	top: 0px;
+	
+	border: 1px solid grey;
+  	
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat6
+{
+    position:absolute;
+    background-color: #e0eeee;
+	top: 0px;
+	
+	border: 1px solid grey;
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat7
+{
+    position:absolute;
+    background-color: lightgrey;
+	top: 0px;
+	
+	border: 1px solid grey;
+  	
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat8
+{
+    position:absolute;
+    background-color: #e0eeee;
+	top: 0px;
+	
+	border: 1px solid grey;
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat9
+{
+    position:absolute;
+    background-color: lightgrey;
+	top: 0px;
+	
+	border: 1px solid grey;
+  	
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat10
+{
+    position:absolute;
+    background-color: #e0eeee;
+	top: 0px;
+	
+	border: 1px solid grey;
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat11
+{
+    position:absolute;
+    background-color: lightgrey;
+	top: 0px;
+	
+	border: 1px solid grey;
+  	
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat12
+{
+    position:absolute;
+    background-color: #e0eeee;
+	top: 0px;
+	
+	border: 1px solid grey;
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.monat13
+{
+    position:absolute;
+    background-color: lightgrey;
+	top: 0px;
+	
+	border: 1px solid grey;
+  	
+	
+	font-size: 12px;
+	height: 20px;
+}
+
+.contacts
+{
+    float:left;
+    background-color: lightgreen;
+	top: 200px;
+	
+	height: 20px;
+}
+
+
+
+.projekt1
+{
+	position:absolute;
+	
+	top: 195px;
+	height: 60px;
+	
+	font-size: 12px;
+	
+	border: 1px solid grey;
+	text-align: left;
+	background-color: lightblue;
+}
+
+body {
+  background: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  background: #3a3a3a;
+  font-size: 16px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li {
+  position: relative;
+  float: left;
+  list-style: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+nav ul li a {
+  padding: 20px;
+}
+
+nav ul > li.submenu > a:after {
+  position: relative;
+  float: right;
+  content: '';
+  margin-left: 10px;
+  margin-top: 5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid transparent;
+}
+
+nav ul ul li.submenu > a:after {
+  margin-left: auto;
+  margin-right: -10px;
+  border-left: 5px solid #fff;
+  border-right: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+nav ul li:hover {
+  background: #4096ee;
+}
+
+nav ul ul {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  background: #333;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+nav ul ul li {
+  float: none;
+  width: 200px;
+  border-bottom: 1px solid #555;
+}
+
+nav ul ul li a {
+  padding: 10px 20px;
+}
+
+nav ul ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li:hover > ul {
+  top: 100%;
+  left: 0;
+}
+
+nav ul ul li:hover > ul {
+  top: 0;
+  left: 200px;
+}
+
+
+th
+{ 
+	color: white;
+	background-color: grey;
+}
+h1
+{
+	color: black;
+	font-family:Arial;
+	font-size:12px;
+	padding-bottom:10px;
+}
+
+h2
+{
+	color: black;
+	font-family:Arial;
+	font-size:12px;
+	font-style: normal;font-weight: 100;
+}
+
+h3
+{
+	color: green;
+	font-family:Arial;
+	font-size:15px;
+	font-weight: 900;
+
+	
+	
+}
+
+label
+{
+	font-family:Arial;
+	float: left;
+    width: 110px;
+    height:30px;
+    padding-top:3px;
+	border: 1px solid white;
+	font-size:12px;
+	color: black;
+	
+}
+
+input
+{
+	background-color: white;
+	font-size:12px;
+	font-family:Arial;
+	width: 110px;
+}
+
+span {
+    display: block;
+    overflow: hidden;
+    
+}
+#help
+{
+	position:absolute;
+	top:580px;
+	left:100px;
+}
+
+#LoginFeld
+{
+	position:absolute;
+    top:17px;
+    left:820px;
+    width: 233px;
+	height:25px;
+	padding-top:3px;
+	padding-left:3px;
+	border-color: red;
+	border:solid 1px;
+	background-color:white;
+	font-size:12px;
+	font-family:Arial;
+}
+
+#LogoPosition
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 20px;
+	height:15px;
+	padding-top:3px;
+	background-color:white;
+}
+#SalesLogIn
+{
+	position:absolute;
+	top:0px;
+	left:30px;
+	width: 200px;
+	height:15px;
+	padding-top:3px;
+	background-color:white;
+}
+
+#suchfelder
+{
+	position:absolute;
+    top:70px;
+    left:10px;
+    width: 90%;
+	height:30px;
+	border-color: red;
+	border:solid 1px;
+	
+}
+
+#SuchZeileFirma
+{
+	position:absolute;;
+	padding-left:20px;
+	padding-top:5px;
+}
+
+#SucheZeileAnsprechpartner
+{
+	position:absolute;;
+	padding-left:330px;
+	padding-top:5px;
+}
+
+#combo
+{
+	position:absolute;
+	top:90px;
+	left:650px;
+}
+
+#abfragefeld
+{
+	position:absolute;
+    top:110px;
+    left:10px;
+    width: 90%;
+	height:80px;
+	border-color: red;
+	border:solid 1px;
+	
+}
+
+#sucheFirma
+{
+    position:absolute;
+    width: 300px;
+	top:10px;
+	left:10px;
+	
+}
+
+
+
+#sucheAnsprechpartner
+{
+    position:absolute;
+    width: 300px;
+	top:10px;
+	left:330px;
+	
+}
+
+#eingabefeld
+{
+	position:absolute;
+    top:200px;
+    left:10px;
+    width: 90%;
+	height:900px;
+	border-color: red;
+	border:solid 1px;
+	
+}
+
+
+#firmenadresse
+{
+    width: 300px;
+    position:absolute;
+    top:20px;
+    left:10px;
+    height:355px;
+	padding-left:10px;
+	padding-top:10px;
+	border-color: red;
+	border:solid 1px;
+	
+}
+
+#abstandAnsprechpartner
+{
+	width: 300px;
+    position:absolute;
+    top:20px;
+    left:330px;
+    height:355px;
+	padding-left:10px;
+	padding-top:10px;
+	border-color: red;
+	border:solid 1px;
+	
+}
+
+.suchenFeld
+{
+	
+}
+#abstandSales
+{
+	width: 300px;
+	position:absolute;
+	top:20px;
+	left:650px;
+	height:290px;
+	padding-left:10px;
+	padding-top:10px;
+	border-color: green;
+	border:solid 1px;
+	
+}
+
+#abstandAngebot
+{
+	width: 300px;
+	position:absolute;
+	top:20px;
+	left:650px;
+	height:355px;
+	padding-left:10px;
+	padding-top:10px;
+	border-color: green;
+	border:solid 1px;
+	
+}
+
+.datenspeichern
+{
+	position:absolute;
+	top:380px;
+	left:840px;
+}
+
+.shortdatenspeichern
+{
+	position:relative;
+	top:100px;
+	left:90px;
+}
+
+.login
+{
+	width: 300px;
+	position:absolute;
+	top:150px;
+	left:300px;
+	height:320px;
+	padding-left:10px;
+	border-color: green;
+	border:solid 1px;
+}
+
+.submitlogin
+{
+	position:relative;
+	top:90px;
+	left:50px;
+}
+.InputLeft
+{
+	float:left;
+}
+.InputLeft1
+{
+	float:left;
+	position:absolute;
+	left:50px;
+}
+.InputLeftGrey
+{
+	float:left;
+	background-color:grey;
+	
+}
+
+#MYDealFrame
+{
+	position:absolute;
+	left:50px;
+	top:100px;
+	background-color: White;
+}
+
+
+
+
+
